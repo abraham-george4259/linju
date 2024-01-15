@@ -5,6 +5,7 @@ metadata:
 spec:
   selector:
     matchLabels:
+      label: ops-cluster-amp
       app: nginx
   replicas: 1 # tells deployment to run 2 pods matching the template
   template:
